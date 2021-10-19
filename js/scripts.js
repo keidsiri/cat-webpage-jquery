@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#showing").slideToggle();
-    $("#hiding").slideToggle();
+    $("#showing").toggle();
+    $("#hiding").toggle();
   });
 });
